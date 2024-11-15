@@ -55,6 +55,8 @@ def configurar_pagina():
     m = st.sidebar.selectbox("Modelos", MODELOS, index = 0)
     return m
 
+#ESTO ES UN CAMBIO NUEVO QUE HICE EN MI PROYECTO
+
 def main():
     #LLAMAMOS AL ESTADO DE MENSAJE
     inicializar_estado()
